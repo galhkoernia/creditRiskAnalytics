@@ -64,3 +64,20 @@ CORRELATION_COLUMNS = [
     "Activity Rate",
     TARGET_COLUMN
 ]
+
+
+UNIVARIATE_ANALYSIS = [
+    {
+        "column": "Age",
+        "type": "distribution"
+    },
+    {
+        "column": "Avg. Annual Income/Month",
+        "type": "distribution"
+    },
+    {
+        "column": "City",
+        "type": "frequency"
+    },
+    ...
+]

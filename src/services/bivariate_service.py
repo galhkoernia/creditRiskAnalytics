@@ -4,12 +4,12 @@
 # Copyright (c) 2026 Your Company
 #
 
-from analysis.bivariate import (
+from src.analysis.bivariate import (
     compare_with_target,
     analyze_unpaid_rate
 )
 
-from config.constants import TARGET_COLUMN
+from src.config.constants import TARGET_COLUMN
 
 
 def run_bivariate(df):
@@ -37,27 +37,27 @@ def run_bivariate(df):
         TARGET_COLUMN
     )
 
-    results["avg_balance"] = compare_with_target(
+    results["balance_q4"] = compare_with_target(
         df,
-        "Avg Balance",
+        "Balance Q4",
         TARGET_COLUMN
     )
 
-    results["balance_change"] = compare_with_target(
+    results["products_q4"] = compare_with_target(
         df,
-        "Balance Change",
+        "NumOfProducts Q4",
         TARGET_COLUMN
     )
 
-    results["avg_products"] = compare_with_target(
+    results["credit_card_q4"] = compare_with_target(
         df,
-        "Avg Products",
+        "HasCrCard Q4",
         TARGET_COLUMN
     )
 
-    results["activity_rate"] = compare_with_target(
+    results["active_q4"] = compare_with_target(
         df,
-        "Activity Rate",
+        "ActiveMember Q4",
         TARGET_COLUMN
     )
 

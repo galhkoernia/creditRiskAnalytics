@@ -4,9 +4,9 @@
 # Copyright (c) 2026 galhkoernia
 #
 
-from utils.statistics import unpaid_rate
+from src.utils.statistics import unpaid_rate
 
-from visualization.plotter import (
+from src.visualization.plotter import (
     plot_boxplot,
     plot_bar
 )

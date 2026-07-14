@@ -4,15 +4,15 @@
 # Copyright (c) 2026 Your Company
 #
 
-from services.univariate_service import (
+from src.services.univariate_service import (
     run_univariate
 )
 
-from services.bivariate_service import (
+from src.services.bivariate_service import (
     run_bivariate
 )
 
-from services.multivariate_service import (
+from src.services.multivariate_service import (
     run_multivariate
 )
 

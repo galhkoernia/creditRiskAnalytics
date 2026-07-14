@@ -7,7 +7,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from .style import set_plot_style
+from src.visualization.style import set_plot_style
 
 def plot_histogram(
     data,

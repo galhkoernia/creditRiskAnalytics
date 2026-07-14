@@ -4,12 +4,12 @@
 # Copyright (c) 2026 galhkoernia
 #
 
-from utils.statistics import (
+from src.utils.statistics import (
     summary_statistics,
     frequency_table
 )
 
-from visualization.plotter import (
+from src.visualization.plotter import (
     plot_histogram,
     plot_countplot
 )

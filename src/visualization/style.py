@@ -18,9 +18,9 @@ def set_plot_style():
         palette="deep"
     )
 
-    plt.rcParams["figure.figsize"] = (10, 6)
-    plt.rcParams["figure.dpi"] = 120
-    plt.rcParams["axes.titlesize"] = 14
-    plt.rcParams["axes.labelsize"] = 12
-    plt.rcParams["xtick.labelsize"] = 10
-    plt.rcParams["ytick.labelsize"] = 10
+    plt.rcParams["figure.figsize"] = (8, 5)
+    plt.rcParams["figure.dpi"] = 100
+    plt.rcParams["axes.titlesize"] = 11
+    plt.rcParams["axes.labelsize"] = 10
+    plt.rcParams["xtick.labelsize"] = 8
+    plt.rcParams["ytick.labelsize"] = 8

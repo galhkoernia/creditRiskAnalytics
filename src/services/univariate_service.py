@@ -4,12 +4,12 @@
 # Copyright (c) 2026 Your Company
 #
 
-from analysis.univariate import (
+from src.analysis.univariate import (
     analyze_distribution,
     analyze_frequency
 )
 
-from config.constants import TARGET_COLUMN
+from src.config.constants import TARGET_COLUMN
 
 
 def run_univariate(df):
@@ -42,22 +42,28 @@ def run_univariate(df):
         "City"
     )
 
-    # Financial
-    results["avg_balance"] = analyze_distribution(
+    # Financial - Gunakan Balance Q4 sebagai representasi saldo terbaru
+    results["balance_q4"] = analyze_distribution(
         df,
-        "Avg Balance"
+        "Balance Q4"
     )
 
-    # Product
-    results["avg_products"] = analyze_distribution(
+    # Product - Gunakan NumOfProducts Q4
+    results["products_q4"] = analyze_distribution(
         df,
-        "Avg Products"
+        "NumOfProducts Q4"
     )
 
-    # Activity
-    results["activity_rate"] = analyze_distribution(
+    # Activity - Gunakan ActiveMember Q4
+    results["active_q4"] = analyze_frequency(
         df,
-        "Activity Rate"
+        "ActiveMember Q4"
+    )
+
+    # Credit Card - Gunakan HasCrCard Q4
+    results["credit_card_q4"] = analyze_frequency(
+        df,
+        "HasCrCard Q4"
     )
 
     return results

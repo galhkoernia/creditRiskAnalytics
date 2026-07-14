@@ -4,7 +4,7 @@
 # Copyright (c) 2026 galhkoernia
 #
 
-from visualization.plotter import (
+from src.visualization.plotter import (
     plot_heatmap
 )
 

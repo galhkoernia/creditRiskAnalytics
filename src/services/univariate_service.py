@@ -42,25 +42,25 @@ def run_univariate(df):
         "City"
     )
 
-    # Financial - Gunakan Balance Q4 sebagai representasi saldo terbaru
+    # Financial
     results["balance_q4"] = analyze_distribution(
         df,
         "Balance Q4"
     )
 
-    # Product - Gunakan NumOfProducts Q4
+    # Product 
     results["products_q4"] = analyze_distribution(
         df,
         "NumOfProducts Q4"
     )
 
-    # Activity - Gunakan ActiveMember Q4
+    # Activity
     results["active_q4"] = analyze_frequency(
         df,
         "ActiveMember Q4"
     )
 
-    # Credit Card - Gunakan HasCrCard Q4
+    # Credit Card
     results["credit_card_q4"] = analyze_frequency(
         df,
         "HasCrCard Q4"

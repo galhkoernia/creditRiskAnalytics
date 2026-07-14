@@ -36,7 +36,7 @@ def main():
     print("EDA completed successfully.")
     print("="*60)
     
-    # Save dashboard - pastikan menggunakan fungsi yang sudah diupdate
+    # Save dashboard
     try:
         save_dashboard(df, 'report/dashboard.png')
         print("\n✅ Dashboard saved to report/dashboard.png")

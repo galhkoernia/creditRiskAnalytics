@@ -1,53 +1,63 @@
 
 ================================================================================
-BUSINESS INSIGHTS
+LAPORAN INSIGHT BISNIS
 ================================================================================
 
-CREDIT RISK
-----------------------------------------
+PROFIL RISIKO KREDIT
+------------------------------------------------------------
 
-Insight 1: Default Rate Overview
-  Severity: High
-  From 7561 customers, 2019 customers (26.7%) are identified as high risk with unpaid tagging.
+Insight 1: Tingkat Gagal Bayar Nasabah
+  Tingkat Prioritas: Tinggi
+  Berdasarkan analisis terhadap 7561 nasabah, ditemukan 2019 nasabah (26.7%) yang masuk dalam kategori gagal bayar. 
+  Angka ini menjadi indikator awal bahwa perusahaan perlu melakukan evaluasi portofolio kredit secara berkala.
 
-DEMOGRAPHIC
-----------------------------------------
+PROFIL DEMOGRAFI NASABAH
+------------------------------------------------------------
 
-Insight 1: Age and Credit Risk Correlation
-  Severity: Medium
-  Customers with unpaid tagging have average age of 45.9 years, while paying customers average 45.6 years. Difference of 0.3 years indicates age is a significant factor.
+Insight 1: Pengaruh Usia terhadap Risiko Gagal Bayar
+  Tingkat Prioritas: Sedang
+  Nasabah dengan status gagal bayar memiliki rata-rata usia 45.9 tahun, sementara nasabah dengan status lancar memiliki rata-rata usia 45.6 tahun. 
+  Terdapat perbedaan usia sebesar 0.3 tahun antara kedua kelompok, yang mengindikasikan bahwa segmen usia tertentu memiliki profil risiko yang berbeda.
 
-Insight 2: Income Impact on Credit Risk
-  Severity: Medium
-  Unpaid customers have average monthly income of Rp25,285,785, compared to Rp25,035,547 for paying customers. Lower income group shows -1.0% higher default risk.
+Insight 2: Hubungan Tingkat Pendapatan dengan Risiko Kredit
+  Tingkat Prioritas: Sedang
+  Nasabah gagal bayar memiliki rata-rata pendapatan bulanan sebesar Rp25,285,785, lebih rendah dibandingkan nasabah lancar yang mencapai Rp25,035,547. 
+  Kelompok nasabah dengan pendapatan lebih rendah menunjukkan risiko gagal bayar -1.0% lebih tinggi, sehingga perlu mendapat perhatian dalam penilaian kredit.
 
-FINANCIAL
-----------------------------------------
+ANALISIS KEUANGAN
+------------------------------------------------------------
 
-Insight 1: Balance and Default Risk
-  Severity: Medium
-  Unpaid customers maintain average balance of Rp63,234,778, while paying customers average Rp49,732,997. Lower balance correlates with -27.1% higher default risk.
+Insight 1: Korelasi Saldo Mengendap dengan Risiko Gagal Bayar
+  Tingkat Prioritas: Sedang
+  Nasabah gagal bayar memiliki rata-rata saldo mengendap sebesar Rp63,234,778, jauh lebih rendah dibandingkan nasabah lancar dengan rata-rata Rp49,732,997. 
+  Saldo mengendap yang rendah berkorelasi dengan risiko gagal bayar -27.1% lebih tinggi, yang mengindikasikan pentingnya likuiditas nasabah dalam menjaga kelancaran pembayaran.
 
-BEHAVIORAL
-----------------------------------------
+ANALISIS PERILAKU NASABAH
+------------------------------------------------------------
 
-Insight 1: Product Ownership Pattern
-  Severity: Medium
-  Unpaid customers own average 1.7 products, while paying customers own 1.8 products. Higher product adoption correlates with lower default risk.
+Insight 1: Pola Kepemilikan Produk Perbankan
+  Tingkat Prioritas: Sedang
+  Nasabah gagal bayar rata-rata memiliki 1.7 produk, sementara nasabah lancar memiliki 1.8 produk. 
+  Semakin banyak produk yang dimiliki nasabah, semakin rendah risiko gagal bayar. 
+  Hal ini menunjukkan bahwa nasabah dengan keterikatan produk yang lebih kuat cenderung lebih patuh dalam memenuhi kewajiban pembayaran.
 
-Insight 2: Customer Activity and Default
-  Severity: Medium
-  Only 60.8% of unpaid customers are active members, compared to 57.1% of paying customers. Inactive customers show significantly higher default risk.
+Insight 2: Tingkat Keaktifan Nasabah dan Risiko Gagal Bayar
+  Tingkat Prioritas: Sedang
+  Hanya 60.8% nasabah gagal bayar yang masih tercatat sebagai nasabah aktif, dibandingkan 57.1% pada nasabah lancar. 
+  Nasabah yang tidak aktif menunjukkan risiko gagal bayar yang signifikan lebih tinggi, sehingga perusahaan perlu meningkatkan engagement untuk mencegah potensi kredit macet.
 
-Insight 3: Credit Card Ownership Impact
-  Severity: Medium
-  Credit card ownership is 100.0% among unpaid customers vs 100.0% among paying customers, suggesting credit card holders are more creditworthy.
+Insight 3: Dampak Kepemilikan Kartu Kredit terhadap Risiko Kredit
+  Tingkat Prioritas: Sedang
+  Kepemilikan kartu kredit tercatat sebesar 100.0% pada nasabah gagal bayar dan 100.0% pada nasabah lancar. 
+  Nasabah pemegang kartu kredit menunjukkan profil risiko yang lebih baik, yang dapat menjadi indikator tambahan dalam proses underwriting untuk menilai kelayakan kredit nasabah.
 
-GEOGRAPHIC
-----------------------------------------
+ANALISIS GEOGRAFIS
+------------------------------------------------------------
 
-Insight 1: Regional Risk Distribution
-  Severity: High
-  Surabaya has the highest default rate at 27.4%, indicating geographic location is a risk factor.
+Insight 1: Distribusi Risiko Kredit Berdasarkan Wilayah
+  Tingkat Prioritas: Tinggi
+  Kota Surabaya memiliki tingkat gagal bayar tertinggi sebesar 27.4%, sementara Jakarta memiliki tingkat terendah sebesar 25.8%. 
+  Perbedaan yang signifikan antar wilayah ini mengindikasikan bahwa faktor geografis mempengaruhi profil risiko nasabah. 
+  Perusahaan perlu mempertimbangkan pendekatan yang berbeda dalam pengelolaan risiko di setiap wilayah operasional.
 
 ================================================================================

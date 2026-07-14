@@ -1,0 +1,16 @@
+{
+  "total_customers": 7561,
+  "default_rate": 26.702817087686814,
+  "avg_balance": 53261745.67616222,
+  "avg_products": 1.6517656394656792,
+  "avg_age": 45.71326544107922,
+  "avg_income": 25102367.411718026,
+  "active_rate": 53.848697262266896,
+  "credit_card_rate": 93.93929374421373,
+  "high_risk_count": 1585,
+  "default_by_city": {
+    "Bandung": 0.2613277133825079,
+    "Jakarta": 0.25843881856540085,
+    "Surabaya": 0.27422352004247413
+  }
+}

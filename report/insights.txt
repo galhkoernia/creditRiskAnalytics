@@ -1,0 +1,53 @@
+
+================================================================================
+BUSINESS INSIGHTS
+================================================================================
+
+CREDIT RISK
+----------------------------------------
+
+Insight 1: Default Rate Overview
+  Severity: High
+  From 7561 customers, 2019 customers (26.7%) are identified as high risk with unpaid tagging.
+
+DEMOGRAPHIC
+----------------------------------------
+
+Insight 1: Age and Credit Risk Correlation
+  Severity: Medium
+  Customers with unpaid tagging have average age of 45.9 years, while paying customers average 45.6 years. Difference of 0.3 years indicates age is a significant factor.
+
+Insight 2: Income Impact on Credit Risk
+  Severity: Medium
+  Unpaid customers have average monthly income of Rp25,285,785, compared to Rp25,035,547 for paying customers. Lower income group shows -1.0% higher default risk.
+
+FINANCIAL
+----------------------------------------
+
+Insight 1: Balance and Default Risk
+  Severity: Medium
+  Unpaid customers maintain average balance of Rp63,234,778, while paying customers average Rp49,732,997. Lower balance correlates with -27.1% higher default risk.
+
+BEHAVIORAL
+----------------------------------------
+
+Insight 1: Product Ownership Pattern
+  Severity: Medium
+  Unpaid customers own average 1.7 products, while paying customers own 1.8 products. Higher product adoption correlates with lower default risk.
+
+Insight 2: Customer Activity and Default
+  Severity: Medium
+  Only 60.8% of unpaid customers are active members, compared to 57.1% of paying customers. Inactive customers show significantly higher default risk.
+
+Insight 3: Credit Card Ownership Impact
+  Severity: Medium
+  Credit card ownership is 100.0% among unpaid customers vs 100.0% among paying customers, suggesting credit card holders are more creditworthy.
+
+GEOGRAPHIC
+----------------------------------------
+
+Insight 1: Regional Risk Distribution
+  Severity: High
+  Surabaya has the highest default rate at 27.4%, indicating geographic location is a risk factor.
+
+================================================================================

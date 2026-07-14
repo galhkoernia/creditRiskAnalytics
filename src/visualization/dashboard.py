@@ -118,7 +118,7 @@ def create_dashboard(df):
     ax7.legend()
     ax7.grid(True, alpha=0.3)
     
-    # 8. City Distribution (Bottom Left)
+    # City Distribution
     ax8 = fig.add_subplot(gs[3, 0])
     city_counts = df['City'].value_counts()
     colors_city = ['#3498db', '#2ecc71', '#e74c3c', '#f39c12']
@@ -127,7 +127,7 @@ def create_dashboard(df):
                                         startangle=90)
     ax8.set_title('Distribusi Nasabah per Kota', fontsize=12, fontweight='bold')
     
-    # 9. Correlation Heatmap (Bottom Right, spanning 3 columns)
+    # Correlation Heatmap
     ax9 = fig.add_subplot(gs[3, 1:4])
     numeric_cols = ['Age', 'Avg. Annual Income/Month', 'Balance Q4', 'NumOfProducts Q4']
     corr = df[numeric_cols].corr()
